@@ -1,0 +1,105 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url(images/hannah-busing-Zyx1bK9mqmA-unsplash.jpg);
+    background-size: cover;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 255, 0.434);
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+    font-family: 'new-font';
+}
+
+.description {
+    font-size: 1.5rem;
+    margin-top: 1%;
+}
+
+.personal-details {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    border: none;
+}
+
+form {
+    background-color: rgba(29, 10, 29, 0.461);
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    margin-bottom: 5%;
+    border-radius: 5px;
+}
+
+select,button,input {
+    font-size: inherit;
+    font-family: inherit;
+}
+
+label {
+    margin-bottom: 1%;
+}
+
+.radio-class,
+.cb-class {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.radio-class>div,
+.cb-class>div {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 2%;
+}
+
+.input-box {
+    height: 25px;
+    width: 70%;
+    margin-bottom: 3%;
+    padding: 2%;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+button {
+    width: 20%;
+    margin: 2% auto;
+    padding: 3px 2px;
+    border-radius: 5px;
+    background-color:greenyellow ; 
+    transition: background-color 300ms ease-in;
+}
+button:hover{
+    background-color: rgb(182, 212, 136);
+}
+
+/* font-family */
+@font-face{
+    font-family: 'new-font';
+    font-style: normal;
+    font-weight: normal;
+    src: local('new-font'), url('Flaviotte.ttf') format('truetype');
+}
